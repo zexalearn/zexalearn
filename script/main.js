@@ -53,7 +53,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-
+var transfromString;
 (function () {
 
   var doc = document.documentElement;
