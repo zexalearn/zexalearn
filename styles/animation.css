@@ -1,0 +1,39 @@
+h2,
+#social-icons,
+.team-card {
+    transition: all 1.5s;
+}
+
+h2[data-scroll="out"] {
+    opacity: 0;
+    transform: scale(0);
+}
+
+h2[data-scroll="in"] {
+    opacity: 1;
+    transform: scale(1)
+}
+
+
+
+#social-icons[data-scroll="out"] {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+#social-icons[data-scroll="in"] {
+    opacity: 1;
+    transform: scale(1)
+}
+
+
+.team-card[data-scroll="out"] {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.team-card[data-scroll="in"] {
+    opacity: 1;
+    transform: scale(1)
+}
+
