@@ -574,8 +574,7 @@ body::-webkit-scrollbar {
 	top: 0;
 	width: 100%;
 	z-index: 100;
-	transition: all .3s ease;
-	box-shadow: 0 1px 25px rgba(0,0,0, .1);
+	box-shadow: 0 1px 25px rgba(0,0,0, 0.15);
 }
 #navbar.hide {
 	top: -60px;

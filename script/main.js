@@ -15,7 +15,7 @@ const settwo = ()=>{
 setTimeout(() => {
   gsap.timeline()
     .to("#loading", { opacity: 0, duration: 0.8, scale: 0, y: -1200,onComplete:setall })
-    .from("#navbar", { opacity: 0, y: -50, duration: 0.8 })
+    .from("#navbar", { opacity: 0, y: -50, duration: 0.4 })
     .from("#img", { opacity: 0, scale: 0.5,x:-100, duration: 0.6 })
     .from("#sub", { opacity: 0, x: -80, duration: 0.8 },"-=0.4")
     .from("#title", { opacity: 0, x: -80, duration: 0.8 },"-=0.4")
